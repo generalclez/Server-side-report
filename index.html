@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Report</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        .container {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 justify-content-center m-auto">
+                <h1 class="pb-3 text-danger text-center">IMGC REPORT</h1>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control bg-light border border-danger" placeholder="Search..."
+                        id="searchInput">
+                    <div class="">
+                        <button class="btn btn-danger" type="button" onclick="searchTable()">Search</button>
+                    </div>
+                </div>
+
+                <!-- table -->
+                <table class="table table-responsive table-hover fw-bold">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Phone Number</th>
+                            <th>Gender</th>
+                            <th>Age Range</th>
+                            <th>Resumption Day</th>
+                            <th>Dependant</th>
+                            <th>Camping</th>
+                            <th>Camping facility</th>
+                            <th>Minister</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Clement Adegun Clement</td>
+                            <td>08165061080</td>
+                            <td>M</td>
+                            <td>111</td>
+                            <td>Day 1</td>
+                            <td>yes</td>
+                            <td>yes</td>
+                            <td>Guest house</td>
+                            <td>No</td>
+                        </tr>
+                        <tr>
+                            <td>Clement Adegun</td>
+                            <td>08165061080</td>
+                            <td>M</td>
+                            <td>111</td>
+                            <td>Day 1</td>
+                            <td>yes</td>
+                            <td>yes</td>
+                            <td>Guest house</td>
+                            <td>No</td>
+                        </tr>
+                        <tr>
+                            <td>Clement Adegun</td>
+                            <td>08165061080</td>
+                            <td>M</td>
+                            <td>111</td>
+                            <td>Day 1</td>
+                            <td>yes</td>
+                            <td>yes</td>
+                            <td>Guest house</td>
+                            <td>No</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./report.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
